@@ -1,0 +1,19 @@
+title: The First Women's rights convention.
+description: A data-driven look at the the Seneca Falls Convention of 1848
+plugins:
+  - jekyll-relative-links
+relative_links:
+  enabled: true
+  collections: true
+include:
+  - CHANGELOG.md
+  - CODE_OF_CONDUCT.md
+  - CONTRIBUTING.md
+  - ISSUE_TEMPLATE.md
+  - LICENSE
+  - PULL_REQUEST_TEMPLATE.md
+  - README.md
+theme: jekyll-theme-dinky
+source: ./pages
+collections_dir: ./pages
+includes_dir: _includes
